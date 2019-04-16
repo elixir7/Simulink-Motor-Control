@@ -7,7 +7,7 @@ k_t     = 3.96 * 10^-3;     % N*m/A - Torque constant
 i_0     = 0.046;            % A - No load current)
 u_0     = 6;                % V - No load voltage
 J       = 5.8 * 10^-8;      % kg*m^2 - Rotor inertia
-u_max   = 15;              % V - Maximum voltage
+u_max   = 6;              % V - Maximum voltage
 
 % Encoder
 LPR     = 512;              % Lines per revolution
