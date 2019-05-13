@@ -18,7 +18,8 @@ n       = 56/8;            % Gearing
 d       = 31;               % mm - Wheel diameter
 r       = d/2;
 m_total = 300;              % g - Total weight of the robot
-m       = m_t/2;            % g - Weight that each wheel has to power
+m       = m_total/2;            % g - Weight that each wheel has to power
+a       = 2;              % Acceleration
 
 % Simulation
 v_step  = 6;                % Voltage step for simulation
